@@ -1,0 +1,101 @@
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.add-category form {
+  width: 600px;
+  margin-top: 10px;
+}
+
+.add-category form button {
+  background-color: rgb(44,162,174);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+a:hover {
+  color: white;
+}
+
+.icon {
+margin-right: 5px;
+}
+
+.submit:hover {
+  color: white !important;
+}
+
+.edit-button {
+  background-color: #1677FF;
+  color: white;
+}
+
+.forms {
+  display: flex;
+  gap: 20px;
+}
+
+.second-form {
+  border: 1px solid rgb(223, 221, 221);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.local-images {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  height: 350px;
+  overflow-y: auto;
+}
+
+.local-images img {
+  width: 180px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.img-btn {
+  position: relative;
+}
+
+.img-btn button {
+  position: absolute;
+  right: 0;
+  top: -5px;
+  color: red;
+  font-size: 20px;
+}
+
+.img-btn button:hover {
+  color: rgba(255, 0, 0, 0.575);
+}
+
+
+.inputfile {
+  /* visibility: hidden etc. wont work */
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.inputfile:focus + label {
+  /* keyboard navigation */
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+.inputfile + label * {
+  pointer-events: none;
+}
+
+.camera {
+  font-size: 50px;
+color: rgb(43,160,175);
+font-weight: bold;
+cursor: pointer;
+}

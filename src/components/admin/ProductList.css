@@ -1,0 +1,51 @@
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .table-header .title, .add-category .title {
+    color: rgb(44,162,174);
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .table-header button {
+    background-color: rgb(44,162,174);
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-category form {
+    width: 600px;
+    margin-top: 10px;
+  }
+  
+  .add-category form button {
+    background-color: rgb(44,162,174);
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  .icon {
+  margin-right: 5px;
+  }
+  
+  .submit:hover {
+    color: white !important;
+  }
+  
+  .edit-button {
+    background-color: #1677FF;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    color: white !important;
+  }
